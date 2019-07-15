@@ -37,9 +37,6 @@
     </nav>
 
     <main>
-
-        <div class="boise">
-        </div>
         <picture>
             <source media="(max-width: 600px)" srcset="images/boisetmpsmall.jpeg">
             <source media="(min-width: 800px)" srcset="images/boisetemple.jpeg">
@@ -49,14 +46,12 @@
         <section class="weatherstats">
             <h3>Boise Weather</h3>
             <hr>
-            <p>Currently: <span id="currently"></span></p>
-            <p>High: <span id="hitemp"></span>&deg;F</p>
-            <p>Wind Chill: <span id="windchill"></span>&deg;F</p>
-            <p>Humidity: <span id="humidity"></span> %</p>
-            <p>Wind Speed: <span id="windSpeed"></span> mph</p>
+            <p id= "boise-weather">Currently: <span id="boise-currently"></span></p>
+            <p>High: <span id="boise-hitemp"></span>&deg;F</p>
+            <p>Wind Chill: <span id="boise-windchill"></span>&deg;F</p>
+            <p>Humidity: <span id="boise-humidity"></span> %</p>
+            <p>Wind Speed: <span id="boise-windSpeed"></span> mph</p>
         </section>
-        
-
 
         <div class="idahofalls">
         </div>
@@ -69,16 +64,13 @@
         <section class="weatherstats">
             <h3>Idaho Falls Weather</h3>
             <hr>
-            <p>Currently: <span id="currently1"></span></p>
-            <p>High: <span id="hitemp1"></span>&deg;F</p>
-            <p>Wind Chill: <span id="windchill1"></span>&deg;F</p>
-            <p>Humidity: <span id="humidity1"></span> %</p>
-            <p>Wind Speed: <span id="windSpeed1"></span> mph</p>
+            <p id = "idahofalls-weather">Currently: <span id="if-currently"></span></p>
+            <p>High: <span id="if-hitemp"></span>&deg;F</p>
+            <p>Wind Chill: <span id="if-windchill"></span>&deg;F</p>
+            <p>Humidity: <span id="if-humidity"></span> %</p>
+            <p>Wind Speed: <span id="if-windSpeed"></span> mph</p>
         </section>
       
-
-        <div class="provo">
-        </div>
         <picture>
             <source media="(max-width: 600px)" srcset="images/provotmpsmall.jpeg">
             <source media="(min-width: 800px)" srcset="images/provotemple.jpg">
@@ -88,16 +80,16 @@
         <section class="weatherstats">
             <h3>Provo Weather</h3>
             <hr>
-            <p>Currently: <span id="currently2"></span></p>
-            <p>High: <span id="hitemp2"></span>&deg;F</p>
-            <p>Wind Chill: <span id="windchill2"></span>&deg;F</p>
-            <p>Humidity: <span id="humidity2"></span> %</p>
-            <p>Wind Speed: <span id="windSpeed2"></span> mph</p>
+            <ul>
+
+            </ul>
+            <p id = "provo-weather">Currently: <span id="provo-currently"></span></p>
+            <p>High: <span id="provo-hitemp"></span>&deg;F</p>
+            <p>Wind Chill: <span id="provo-windchill"></span>&deg;F</p>
+            <p>Humidity: <span id="provo-humidity"></span> %</p>
+            <p>Wind Speed: <span id="provo-windSpeed"></span> mph</p>
         </section>
         
-
-        <div class="saltlake">
-        </div>
         <picture>
             <source media="(max-width: 600px)" srcset="images/saltlaketmpsmall.jpeg">
             <source media="(min-width: 800px)" srcset="images/saltlaketemple.jpeg">
@@ -107,18 +99,13 @@
         <section class="weatherstats">
             <h3>Salt Lake City Weather</h3>
             <hr>
-            <p>Currently: <span id="currently3"></span></p>
-            <p>High: <span id="hitemp3"></span>&deg;F</p>
-            <p>Wind Chill: <span id="windchill3"></span>&deg;F</p>
-            <p>Humidity: <span id="humidity3"></span> %</p>
-            <p>Wind Speed: <span id="windSpeed3"></span> mph</p>
+            <p id="saltlake-weather">Currently: <span id="slc-currently"></span></p>
+            <p>High: <span id="slc-hitemp"></span>&deg;F</p>
+            <p>Wind Chill: <span id="slc-windchill"></span>&deg;F</p>
+            <p>Humidity: <span id="slc-humidity"></span> %</p>
+            <p>Wind Speed: <span id="slc-windSpeed"></span> mph</p>
         </section>
-        
-
-
     </main>
-
-
 
     <footer>
         &copy;2019 Eric Lewis | Temple Inn & Suites |<a href="policies.html">Guest Policies</a>
@@ -127,8 +114,8 @@
 
     </footer>
     <script src="scripts/hamburger.js"></script>
-    <script src="scripts/templeinfo.js"></script>
     <script src="scripts/weathersum.js"></script>
+    <script src="scripts/templeinfo.js"></script>
 </body>
 
 </html>
