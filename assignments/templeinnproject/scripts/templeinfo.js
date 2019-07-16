@@ -1,11 +1,11 @@
 let info;
-const data = fetch('\scripts\templeinfo.json').then(res => res.json()).then(data => info = data)
+const data = fetch('https://assignments\templeinnproject\scripts\templeinfo.json').then(res => res.json()).then(data => info = data)
 
 var sectionSe = document.getElementById('boise');
 var sectionSp = document.getElementById('idahofalls');
 var sectionCr = document.getElementById('provo');
 var sectionPo = document.getElementById('saltlake');
-var requestURL = 'assignments\templeinnproject\scripts\templeinfo.json';
+var requestURL = 'https://assignments\templeinnproject\scripts\templeinfo.json';
 
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
