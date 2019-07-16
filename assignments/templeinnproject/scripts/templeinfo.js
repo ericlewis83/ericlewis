@@ -7,8 +7,6 @@ var sectionCr = document.getElementById('provo');
 var sectionPo = document.getElementById('saltlake');
 var requestURL = 'assignments\templeinnproject\scripts\templeinfo.json';
 
-const data = fetch("/scripts/templeinfo.json").then(res => res.json()).then(data => info = data)
-
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
