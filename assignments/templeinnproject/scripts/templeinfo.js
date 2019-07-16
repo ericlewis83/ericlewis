@@ -5,7 +5,7 @@ var sectionSe = document.getElementById('boise');
 var sectionSp = document.getElementById('idahofalls');
 var sectionCr = document.getElementById('provo');
 var sectionPo = document.getElementById('saltlake');
-var requestURL = 'assignments\templeinnproject\scripts\templeinfo.jsona';
+var requestURL = 'assignments\templeinnproject\scripts\templeinfo.json';
 
 let info;
 const data = fetch("/scripts/templeinfo.json").then(res => res.json()).then(data => info = data)
