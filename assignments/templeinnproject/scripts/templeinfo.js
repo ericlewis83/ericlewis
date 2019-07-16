@@ -1,5 +1,5 @@
 let info;
-const data = fetch("\scripts\templeinfo.json").then(res => res.json()).then(data => info = data)
+const data = fetch('\scripts\templeinfo.json').then(res => res.json()).then(data => info = data)
 
 var sectionSe = document.getElementById('boise');
 var sectionSp = document.getElementById('idahofalls');
