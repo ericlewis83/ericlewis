@@ -30,7 +30,7 @@ let sPhone = document.getElementById("slc-phone");
 let sEmail = document.getElementById("slc-email");
 let sOrdinance = document.getElementById("slc-ordinance")
 
-let URL = '';
+let URL = 'https://ericlewis83.github.io/assignments/templeinnproject/scripts/templeinfo.json';
 var request = new XMLHttpRequest();
 
 request.open('GET', URL);
