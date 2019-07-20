@@ -48,7 +48,6 @@ request.onload = function () {
     pName.innerHTML = templeData[2].name;
     sName.innerHTML = templeData[3].name;
 
-
     bAddr.innerHTML = templeData[0].address;
     fAddr.innerHTML = templeData[1].address;
     pAddr.innerHTML = templeData[2].address;
