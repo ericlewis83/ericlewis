@@ -15,7 +15,7 @@
     <link href="css/small.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
     <link href="css/large.css" rel="stylesheet">
-
+    
 </head>
 
 <body>
@@ -37,112 +37,136 @@
 
 
     <main>
-        <div id="boise" class="temple-info">
+        <div id="boise" class = "temple-info">
             <hr>
             <picture>
                 <source media="(max-width: 600px)" srcset="images/boisetmpsmall.jpeg">
-                <source media="(min-width: 800px)" srcset="images/boisetemple.jpeg">
-                <img src="images/boisetemple.jpeg" alt="Boise Idaho lds temple">
-            </picture>
-
-            <section class="weatherstats">
-                <div class="card">
-                    <h3>Boise Weather</h3>
-                    <p id="boise-weather">Currently: <span id="boise-currently"></span></p>
-                    <p>High: <span id="boise-hitemp"></span>&deg;F</p>
-                    <p>Wind Chill: <span id="boise-windchill"></span>&deg;F</p>
-                    <p>Humidity: <span id="boise-humidity"></span> %</p>
-                    <p>Wind Speed: <span id="boise-windSpeed"></span> mph</p>
+                    <source media="(min-width: 800px)" srcset="images/boisetemple.jpeg">
+                        <img src="images/boisetemple.jpeg" alt="Boise Idaho lds temple">
+                    </picture>
+                    <div>
+                            <h2 id="boise-name"></h2>
+                            <p id="boise-phone"></p>
+                            <p id="boise-addr"></p>
+                        </div>
+                        <div id="boise-ordinance"></div>
+                    <section class="weatherstats">
+                        <div class="card">
+                                <h3>Boise Weather</h3>
+                        <p id= "boise-weather">Currently: <span id="boise-currently"></span></p>
+                        <p>High: <span id="boise-hitemp"></span>&deg;F</p>
+                        <p>Wind Chill: <span id="boise-windchill"></span>&deg;F</p>
+                        <p>Humidity: <span id="boise-humidity"></span> %</p>
+                        <p>Wind Speed: <span id="boise-windSpeed"></span> mph</p>
+                    </div>
+                    <div class = "services" id="boise-services" >
+                        <h3>Boise Closures</h3>
+                    </div>
+                        <p class = "closure" id="boise-closures" onload="getClosures()"></p>
+                    </section>
                 </div>
-                <div class="services" id="boise-services">
-                    <h3>Boise Closures</h3>
-                </div>
-                <p class="closure" id="boise-closures" onload="getClosures()"></p>
-            </section>
-        </div>
-
-        <div id="idahofalls" class="temple-info">
+                    
+        <div id = "idahofalls" class = "temple-info">
             <hr>
             <picture>
                 <source media="(max-width: 600px)" srcset="images/idfallstmpsmall.jpeg">
-                <source media="(min-width: 800px)" srcset="images/idfallstemple.jpeg">
-                <img src="images/idfallstemple.jpeg" alt="Idaho Falls lds temple">
-            </picture>
-
-            <section class="weatherstats">
-                <div class="card">
-                    <h3>Idaho Falls Weather</h3>
-                    <p id="idahofalls-weather">Currently: <span id="if-currently"></span></p>
-                    <p>High: <span id="if-hitemp"></span>&deg;F</p>
-                    <p>Wind Chill: <span id="if-windchill"></span>&deg;F</p>
-                    <p>Humidity: <span id="if-humidity"></span> %</p>
-                    <p>Wind Speed: <span id="if-windSpeed"></span> mph</p>
+                    <source media="(min-width: 800px)" srcset="images/idfallstemple.jpeg">
+                        <img src="images/idfallstemple.jpeg" alt="Idaho Falls lds temple">
+                    </picture>
+                    <div>
+                            <h2 id="if-name"></h2>
+                            <p id="if-phone"></p>
+                            <p id="if-addr"></p>
+                        </div>
+                        <div id="if-ordinance"></div>
+                    <section class="weatherstats">
+                        <div class="card">
+                                <h3>Idaho Falls Weather</h3>
+                        <p id = "idahofalls-weather">Currently: <span id="if-currently"></span></p>
+                        <p>High: <span id="if-hitemp"></span>&deg;F</p>
+                        <p>Wind Chill: <span id="if-windchill"></span>&deg;F</p>
+                        <p>Humidity: <span id="if-humidity"></span> %</p>
+                        <p>Wind Speed: <span id="if-windSpeed"></span> mph</p>
+                    </div>
+                    <h3>Idaho Falls Closures</h3>
+                        <p class = "closure" id="if-closures"></p>
+                        
+                    <div class = "services" id="if-services" >
+                    </div>
+                        
+                    </section>
                 </div>
-                <h3>Idaho Falls Closures</h3>
-                <p class="closure" id="if-closures"></p>
-
-                <div class="services" id="if-services">
-                </div>
-
-            </section>
-        </div>
-        <div id="provo" class="temple-info">
-
+        <div id="provo" class = "temple-info">
+            
             <hr>
             <picture>
                 <source media="(max-width: 600px)" srcset="images/provotmpsmall.jpeg">
-                <source media="(min-width: 800px)" srcset="images/provotemple.jpg">
-                <img src="images/provotemple.jpg" alt="Provo Utah lds temple">
-            </picture>
+                    <source media="(min-width: 800px)" srcset="images/provotemple.jpg">
+                        <img src="images/provotemple.jpg" alt="Provo Utah lds temple">
+                    </picture>
+                    
+                    <div>
+                            <h2 id="provo-name"></h2>
+                            <p id="provo-phone"></p>
+                            <p id="provo-addr"></p>
+                        </div>
+                        <div id="provo-ordinance"></div>
 
-            <section class="weatherstats">
-                <div class="card">
-                    <h3>Provo Weather</h3>
-                    <p id="provo-weather"><strong>Currently:</strong> <span id="provo-currently"></span></p>
-                    <p><strong>High:</strong><span id="provo-hitemp"></span>&deg;F</p>
-                    <p><strong>Wind Chill:</strong> <span id="provo-windchill"></span>&deg;F</p>
-                    <p><strong>Humidity:</strong> <span id="provo-humidity"></span> %</p>
-                    <p><strong>Wind Speed:</strong> <span id="provo-windSpeed"></span> mph</p>
-                </div>
-                <h3>Provo Closures</h3>
-                <p class="closure" id="provo-closures"></p>
-                <div class="services" id="provo-services">
-                </div>
+                    <section class="weatherstats">
+                        <div class="card">
+                                <h3>Provo Weather</h3>
+                        <p id = "provo-weather"><strong>Currently:</strong> <span id="provo-currently"></span></p>
+                        <p><strong>High:</strong><span id="provo-hitemp"></span>&deg;F</p>
+                        <p><strong>Wind Chill:</strong> <span id="provo-windchill"></span>&deg;F</p>
+                        <p><strong>Humidity:</strong> <span id="provo-humidity"></span> %</p>
+                        <p><strong>Wind Speed:</strong> <span id="provo-windSpeed"></span> mph</p>
+                    </div>
+                    <h3>Provo Closures</h3>
+                    <p class = "closure" id="provo-closures"></p>
+                    <div class = "services" id="provo-services" >
+                    </div>
+                        
+                    </section>
+                    
+                </div>    
+            <div id="slc" class="temple-info">
 
-            </section>
-
-        </div>
-        <div id="slc" class="temple-info">
-
-            <hr>
-            <picture>
-                <source media="(max-width: 600px)" srcset="images/saltlaketmpsmall.jpeg">
-                <source media="(min-width: 800px)" srcset="images/saltlaketemple.jpeg">
-                <img src="images/saltlaketemple.jpeg" alt="Salt Lake City Utah lds temple">
-            </picture>
-
-            <section class="weatherstats">
-                <div class="card">
-                    <h3>Salt Lake City Weather</h3>
-                    <p id="saltlake-weather"><strong>Currently:</strong> <span id="slc-currently"></span></p>
-                    <p><strong>High:</strong> <span id="slc-hitemp"></span>&deg;F</p>
-                    <p><strong>Wind Chill:</strong> <span id="slc-windchill"></span>&deg;F</p>
-                    <p><strong>Humidity:</strong> <span id="slc-humidity"></span> %</p>
-                    <p><strong>Wind Speed:</strong> <span id="slc-windSpeed"></span> mph</p>
-                </div>
-                <h3>Salt Lake City Closures</h3>
-                <div class="closure" id="slc-closures">
-                </div>
-
-                <div class="services" id="slc-services">
-                </div>
-            </section>
-    </main>
-
-    </div>
-    <footer>
-        &copy;2019 Eric Lewis | Temple Inn & Suites | <a href="policies.html">Guest Policies</a> | <a
-            href="attributions.html">Attributions</a> | Weather data obtained via <a
+                <hr>
+                <picture>
+                    <source media="(max-width: 600px)" srcset="images/saltlaketmpsmall.jpeg">
+                        <source media="(min-width: 800px)" srcset="images/saltlaketemple.jpeg">
+                            <img src="images/saltlaketemple.jpeg" alt="Salt Lake City Utah lds temple">
+                        </picture>
+                        <div>
+                            <h2 id="slc-name"></h2>
+                            <p id="slc-phone"></p>
+                            <p id="slc-addr"></p>
+                        </div>
+                        <div id="slc-ordinance"></div>
+                        
+                        <section class="weatherstats">
+                            <div class="card">
+                                    <h3>Salt Lake City Weather</h3>
+                            <p id="saltlake-weather"><strong>Currently:</strong> <span id="slc-currently"></span></p>
+                            <p><strong>High:</strong> <span id="slc-hitemp"></span>&deg;F</p>
+                            <p><strong>Wind Chill:</strong> <span id="slc-windchill"></span>&deg;F</p>
+                            <p><strong>Humidity:</strong> <span id="slc-humidity"></span> %</p>
+                            <p><strong>Wind Speed:</strong> <span id="slc-windSpeed"></span> mph</p>
+                        </div>
+                        <h3>Salt Lake City Closures</h3>
+                        <div class = "closure" id="slc-closures" >
+                        </div>
+                            
+                        <div class = "services" id="slc-services" >
+                        </div>
+                        <div class = "ordinance" id="slc-ordinance" >
+                            </div>
+                        </section>
+                    </main>
+                    
+                </div>        
+                    <footer>
+        &copy;2019 Eric Lewis | Temple Inn & Suites | <a href="policies.html">Guest Policies</a> | <a href="attributions.html">Attributions</a> | Weather data obtained via <a
             href="https://openweathermap.org">weather map API</a>
 
     </footer>

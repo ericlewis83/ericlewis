@@ -1,24 +1,62 @@
-let info;
-const data = fetch('\scripts\templeinfo.json').then(res => res.json()).then(data => info = data)
+let boiseC = document.getElementById("boise-closures");
+let provoC = document.getElementById("provo-closures");
+let fallsC = document.getElementById("if-closures");
+let slcC = document.getElementById("slc-closures");
 
-var sectionSe = document.getElementById('boise');
-var sectionSp = document.getElementById('idahofalls');
-var sectionCr = document.getElementById('provo');
-var sectionPo = document.getElementById('saltlake');
-var requestURL = 'https://ericlewis83.github.io/assignments/templeinnproject/scripts/templeinfo.json';
-
+let URL = 'https://ericlewis83.github.io/assignments/templeinnproject/scripts/templeinfo.json';
 var request = new XMLHttpRequest();
-request.open('GET', requestURL);
+
+request.open('GET', URL);
 request.responseType = 'json';
 request.send();
 request.onload = function () {
-    var templeInfo = request.response;
-    console.log(templeInfo);
-    populateBoise(templeInfo);
-    populateIdahoFalls(templeInfo);
-    populateProvo(templeInfo);
-    populateSaltLake(templeInfo);
+  var templeData = request.response;
+  boiseInfo(templeData);
+  provoInfo(templeData);
+  fallsInfo(templeData);
+  slcInfo(templeData);
 }
+
+function boiseInfo(obj){
+let closures = obj[0].closures;
+for(let i=0; i< closures.length; i++){
+    let li = document.createElement("li");
+    let content = document.createTextNode(closures[i]);
+    li.appendChild(content);
+    boiseC.append(li);
+
+}
+}
+
+function fallsInfo(obj){
+    let closures = obj[1].closures;
+    for(let i=0; i< closures.length; i++){
+        let li = document.createElement("li");
+        let content = document.createTextNode(closures[i]);
+        li.appendChild(content);
+        fallsC.append(li);
+    }
+}
+    function provoInfo(obj){
+        let closures = obj[2].closures;
+        for(let i=0; i< closures.length; i++){
+            let li = document.createElement("li");
+            let content = document.createTextNode(closures[i]);
+            li.appendChild(content);
+            provoC.append(li);
+        }
+    }
+        function slcInfo(obj){
+            let closures = obj[3].closures;
+            for(let i=0; i< closures.length; i++){
+                let li = document.createElement("li");
+                let content = document.createTextNode(closures[i]);
+                li.appendChild(content);
+                slcC.append(li);
+            }
+        }
+
+    
 function populateBoise(templeInfo) {
     var templeSe = templeInfo['temples'];
    
@@ -174,5 +212,4 @@ function populateSaltLake(templeInfo) {
     myArticle.appendChild(myPara7);
     myArticle.appendChild(myPara8);
 
-    sectionPo.appendChild(myArticle);
-}
+    sectionPo.appendChild(myArticle);}
