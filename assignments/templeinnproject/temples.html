@@ -44,6 +44,7 @@
                 <source media="(min-width: 800px)" srcset="images/boisetemple.jpeg">
                 <img src="images/boisetemple.jpeg" alt="Boise Idaho lds temple">
             </picture>
+
             <div>
                 <h2 id="boise-name"></h2>
                 <h4>Phone:</h4>
@@ -53,7 +54,6 @@
                 <h4>Email:</h4>
                 <p id="boise-email"></p>
             </div>
-            <section class="weatherstats">
                 <h3>Boise Services</h3>
                 <div class="services" id="boise-services">
                 </div>
@@ -62,14 +62,15 @@
                 <h3>Boise Closures</h3>
                 <p class="closure" id="boise-closures" onload="getClosures()"></p>
 
-                <div class="card">
-                    <h3>Boise Weather</h3>
-                    <p id="boise-weather">Currently: <span id="boise-currently"></span></p>
-                    <p>High: <span id="boise-hitemp"></span>&deg;F</p>
-                    <p>Wind Chill: <span id="boise-windchill"></span>&deg;F</p>
-                    <p>Humidity: <span id="boise-humidity"></span> %</p>
-                    <p>Wind Speed: <span id="boise-windSpeed"></span> mph</p>
-                </div>
+                <section class="weatherstats">
+                    <div class="card">
+                        <h3>Boise Weather</h3>
+                        <p id="boise-weather">Currently: <span id="boise-currently"></span></p>
+                        <p>High: <span id="boise-hitemp"></span>&deg;F</p>
+                        <p>Wind Chill: <span id="boise-windchill"></span>&deg;F</p>
+                        <p>Humidity: <span id="boise-humidity"></span> %</p>
+                        <p>Wind Speed: <span id="boise-windSpeed"></span> mph</p>
+                    </div>
             </section>
         </div>
 
@@ -97,8 +98,8 @@
             <div id="if-ordinance"></div>
             <h3>Idaho Falls Closures</h3>
             <p class="closure" id="if-closures"></p>
+            
             <section class="weatherstats">
-
                 <div class="card">
                     <h3>Idaho Falls Weather</h3>
                     <p id="idahofalls-weather">Currently: <span id="if-currently"></span></p>
@@ -110,6 +111,7 @@
 
             </section>
         </div>
+        
         <div id="provo" class="temple-info">
 
             <hr>
@@ -133,11 +135,10 @@
             </div>
             <h3>Provo Ordinances</h3>
             <div id="provo-ordinance"></div>
-
             <h3>Provo Closures</h3>
             <p class="closure" id="provo-closures"></p>
+            
             <section class="weatherstats">
-
                 <div class="card">
                     <h3>Provo Weather</h3>
                     <p id="provo-weather"><strong>Currently:</strong> <span id="provo-currently"></span></p>
@@ -150,6 +151,7 @@
             </section>
 
         </div>
+        
         <div id="slc" class="temple-info">
 
             <hr>
@@ -191,7 +193,7 @@
     </main>
 
     </div>
-    <br><br>
+   
     <footer>
         &copy;2019 Eric Lewis | Temple Inn & Suites | <a href="policies.html">Guest Policies</a> | <a
             href="attributions.html">Attributions</a> | Weather data obtained via <a
