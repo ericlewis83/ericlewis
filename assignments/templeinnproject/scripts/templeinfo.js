@@ -1,26 +1,22 @@
 let boiseC = document.getElementById("boise-closures");
-let boiseS = document.getElementById("boise-services");
 let bName = document.getElementById("boise-name");
 let bAddr = document.getElementById("boise-addr");
 let bPhone = document.getElementById("boise-phone");
 let bEmail = document.getElementById("boise-email");
 
 let provoC = document.getElementById("provo-closures");
-let provoS = document.getElementById("provo-services");
 let pName = document.getElementById("provo-name");
 let pAddr = document.getElementById("provo-addr");
 let pPhone = document.getElementById("provo-phone");
 let pEmail = document.getElementById("provo-email");
 
 let fallsC = document.getElementById("if-closures");
-let fallsS = document.getElementById("if-services");
 let fName = document.getElementById("if-name");
 let fAddr = document.getElementById("if-addr");
 let fPhone = document.getElementById("if-phone");
 let fEmail = document.getElementById("if-email");
 
 let slcC = document.getElementById("slc-closures");
-let slcS = document.getElementById("slc-services");
 let sName = document.getElementById("slc-name");
 let sAddr = document.getElementById("slc-addr");
 let sPhone = document.getElementById("slc-phone");
@@ -58,11 +54,6 @@ request.onload = function () {
     fEmail.innerHTML = templeData[1].email;
     pEmail.innerHTML = templeData[2].email;
     sEmail.innerHTML = templeData[3].email;
-
-    boiseS.innerHTML = templeData[0].services;
-    fallsS.innerHTML = templeData[1].services;
-    provoS.innerHTML = templeData[2].services;
-    slcS.innerHTML = templeData[3].services;
 
 }
 
