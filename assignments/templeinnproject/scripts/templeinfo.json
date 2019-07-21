@@ -9,7 +9,7 @@
     },
     {
         "name": "Idaho Falls Idaho Temple",
-        "address": "1000 Memorial Drive",
+        "address": "1000 Memorial Drive, Idaho Falls, ID 83402",
         "phone": "(208)522-7669",
         "email": "Log in to churchofjesuschrist.org to send an email to the temple",
         "services": ["Clothing rental available", "Cafeteria available", "No patron housing available", "Distribution center nearby", "Spanish Services"],
@@ -18,7 +18,7 @@
     },
     {
         "name": "Provo Utah Temple",
-        "address": "2200 Temple Hill Drive",
+        "address": "2200 Temple Hill Drive, Provo, UT 84604",
         "phone": "(801)375-5775",
         "email": "Log in to churchofjesuschrist.org to send an email to the temple",
         "services": ["Clothing rental available", "Cafeteria available", "No patron housing available", "Distribution center nearby", "ASL, Tongan, French, Korean, Japanese, Portuguese, Samoan and Spanish Services Available"],
@@ -27,7 +27,7 @@
     },
     {
         "name": "Salt Lake City Utah Temple",
-        "address": "50 W North Temple Street",
+        "address": "50 W North Temple Street, Salt Lake City, UT 84150",
         "phone": "(801)240-2640",
         "email": "Log in to churchofjesuschrist.org to send an email to the temple",
         "services": ["Clothing rental available", "Cafeteria available", "No patron housing available", "Distribution center nearby", "Spanish Services"],
