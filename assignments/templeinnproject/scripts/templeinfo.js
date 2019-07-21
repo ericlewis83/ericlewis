@@ -1,6 +1,6 @@
 let boiseC = document.getElementById("boise-closures");
-let provoC = document.getElementById("provo-closures");
 let fallsC = document.getElementById("if-closures");
+let provoC = document.getElementById("provo-closures");
 let slcC = document.getElementById("slc-closures");
 
 
