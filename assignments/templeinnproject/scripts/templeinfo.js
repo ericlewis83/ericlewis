@@ -92,7 +92,7 @@ function provoInfo(obj) {
 
 function slcInfo(obj) {
     let closures = obj[3].closures;
-    for (let i = 0; i < closures.length; i++) {
+    for (let i = 0; i <closures.length; i++) {
         let li = document.createElement("li");
         let content = document.createTextNode(closures[i]);
         li.appendChild(content);
