@@ -1,26 +1,15 @@
 let boiseC = document.getElementById("boise-closures");
 let bName = document.getElementById("boise-name");
-let bAddr = document.getElementById("boise-addr");
-let bPhone = document.getElementById("boise-phone");
-let bEmail = document.getElementById("boise-email");
 
 let provoC = document.getElementById("provo-closures");
 let pName = document.getElementById("provo-name");
-let pAddr = document.getElementById("provo-addr");
-let pPhone = document.getElementById("provo-phone");
-let pEmail = document.getElementById("provo-email");
 
 let fallsC = document.getElementById("if-closures");
 let fName = document.getElementById("if-name");
-let fAddr = document.getElementById("if-addr");
-let fPhone = document.getElementById("if-phone");
-let fEmail = document.getElementById("if-email");
 
 let slcC = document.getElementById("slc-closures");
 let sName = document.getElementById("slc-name");
-let sAddr = document.getElementById("slc-addr");
-let sPhone = document.getElementById("slc-phone");
-let sEmail = document.getElementById("slc-email");
+
 
 let URL = 'https://ericlewis83.github.io/assignments/templeinnproject/scripts/templeinfo.json';
 var request = new XMLHttpRequest();
@@ -39,21 +28,6 @@ request.onload = function () {
     fName.innerHTML = templeData[1].name;
     pName.innerHTML = templeData[2].name;
     sName.innerHTML = templeData[3].name;
-
-    bAddr.innerHTML = templeData[0].address;
-    fAddr.innerHTML = templeData[1].address;
-    pAddr.innerHTML = templeData[2].address;
-    sAddr.innerHTML = templeData[3].address;
-
-    bPhone.innerHTML = templeData[0].phone;
-    fPhone.innerHTML = templeData[1].phone;
-    pPhone.innerHTML = templeData[2].phone;
-    sPhone.innerHTML = templeData[3].phone;
-
-    bEmail.innerHTML = templeData[0].email;
-    fEmail.innerHTML = templeData[1].email;
-    pEmail.innerHTML = templeData[2].email;
-    sEmail.innerHTML = templeData[3].email;
 
 }
 
@@ -92,15 +66,10 @@ function provoInfo(obj) {
 
 function slcInfo(obj) {
     let closures = obj[3].closures;
-    for (let i = 0; i <closures.length; i++) {
+    for (let i = 0; i < closures.length; i++) {
         let li = document.createElement("li");
         let content = document.createTextNode(closures[i]);
         li.appendChild(content);
         slcC.append(li);
     }
 }
-
-
-
-
-
