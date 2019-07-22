@@ -1,1 +1,7 @@
-.navigation,.container{flex-direction:row};
+.navigation{text-align:center;display:flex;flex-direction:column}
+.navigation li:first-child{display:block}
+.navigation li{display:none}
+.navigation a{display:block;color:#fff;padding:1px;text-align:center;text-decoration:none}
+.navigation a:hover{color:#000;background-color:#fff;font-weight:700}
+.responsive li{display:block}
+nav ul{list-style-type:none;padding:0}
