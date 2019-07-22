@@ -24,10 +24,10 @@ request.onload = function () {
     fallsInfo(templeData);
     slcInfo(templeData);
 
-    bName.innerHTML = templeData[1].name;
-    fName.innerHTML = templeData[2].name;
-    pName.innerHTML = templeData[3].name;
-    sName.innerHTML = templeData[4].name;
+    bName.innerHTML = templeData[0].name;
+    fName.innerHTML = templeData[1].name;
+    pName.innerHTML = templeData[2].name;
+    sName.innerHTML = templeData[3].name;
 
 }
 
@@ -45,7 +45,7 @@ function boiseInfo(obj) {
 }
 
 function fallsInfo(obj) {
-    let closures = obj[2].closures;
+    let closures = obj[1].closures;
     for (let i = 0; i < closures.length; i++) {
         let li = document.createElement("li");
         let content = document.createTextNode(closures[i]);
@@ -55,7 +55,7 @@ function fallsInfo(obj) {
 }
 
 function provoInfo(obj) {
-    let closures = obj[3].closures;
+    let closures = obj[2].closures;
     for (let i = 0; i < closures.length; i++) {
         let li = document.createElement("li");
         let content = document.createTextNode(closures[i]);
@@ -65,7 +65,7 @@ function provoInfo(obj) {
 }
 
 function slcInfo(obj) {
-    let closures = obj[4].closures;
+    let closures = obj[3].closures;
     for (let i = 0; i < closures.length; i++) {
         let li = document.createElement("li");
         let content = document.createTextNode(closures[i]);
