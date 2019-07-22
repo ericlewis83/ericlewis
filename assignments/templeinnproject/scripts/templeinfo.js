@@ -23,7 +23,6 @@ request.onload = function () {
     provoInfo(templeData);
     fallsInfo(templeData);
     slcInfo(templeData);
-
     bName.innerHTML = templeData[0].name;
     fName.innerHTML = templeData[1].name;
     pName.innerHTML = templeData[2].name;
