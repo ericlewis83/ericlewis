@@ -28,7 +28,7 @@ body{
     }
     
     .navigation a{
-    display: block;
+    display: inline-block;
     padding: 10px;
     text-decoration: none;
     font-family: merriweather;
@@ -41,18 +41,23 @@ body{
     list-style-type: none;
     }
     
+    contact-form{
+    background-color: #ffd700;
+    
+    }
+    
     .contact-form ul{
     padding: 0px;
     margin: 0px;
-    float: left;
+    box-align: left;
     }
     
     .contact-form input,
     .contact-form #message{
-    width: 80%;
+    width: 50%;
     padding: 10px 20px;
-    margin:Â 2px;
-    box-sizing:Â border-box;
+    margin: 2px;
+    box-sizing: border-box;
     }
     
     .contact-form li{
@@ -62,10 +67,10 @@ body{
     select{
     position: relative;
     display: inline-block;
-    width: 80%;
+    width: 50%;
     padding: 10px 20px;
-    margin:Â 2px;
-    box-sizing:Â border-box;
+    margin: 2px;
+    box-sizing: border-box;
     border: 1px solid #ccc; height: 34px;
     background-color: #fff;
     }
