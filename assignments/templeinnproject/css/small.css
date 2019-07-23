@@ -113,9 +113,16 @@ li {
     padding-right: 1em;
     text-align: right;
 }
-.img2,.img3, .imghotel, .servicesimg{
+
+
+img,
+.img1,
+.img2,
+.img3,
+img.hotel {
     width: 80%;
 }
+
 
 
 footer a {

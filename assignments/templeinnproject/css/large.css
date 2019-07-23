@@ -1,9 +1,1 @@
-@media (min-width:800px) {
-    .logo {
-        width: 145px
-    }
-    .img2,.img3, .imghotel, .servicesimg{
-        width: 100%;
-    }
-
-}
+@media (min-width:800px){.logo{width:145px}}
