@@ -4,6 +4,7 @@ header,
 
 }
 
+
 h1 {
     font-family: arial black;
     font-size: 32px;
@@ -113,10 +114,15 @@ li {
     text-align: right;
 }
 
-header {
-    font-family: arial black;
-    font-size: 40px;
+
+.img,
+.img1,
+.img2,
+img.hotel {
+    width: 80%;
 }
+
+
 
 footer a {
     font-family: lucinda sans;
