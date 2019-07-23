@@ -153,8 +153,11 @@ p {
 }
 
 button {
-    margin: 30px;
+    margin: 25px;
     padding: 10px;
     font-size: 18px;
 }
-
+label{
+    font-size:16px;
+    font-family:Merriweather;
+}
