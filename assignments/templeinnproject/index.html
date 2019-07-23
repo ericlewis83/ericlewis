@@ -36,9 +36,12 @@
     </nav>
     <main>
         <section>
-            <div class="welcome">
-                <img id="welcome-image" src="images/provotmpwtr.jpg" alt="Provo temple water fountain">
-                <div class="text-wrap"></div>
+                <picture>
+                        <source media="(max-width: 500px)" srcset="images/provowtrsmall.jpg">
+                        <source media="(min-width: 800px)" srcset="images/provotmpwtr.jpg">
+                        <img src="images/provotmpwtr.jpg" alt="Provo temple water fountain">
+                    </picture>
+                
                     <h2>Welcome to Temple Inn & Suites</h2>
 
                     <p>
