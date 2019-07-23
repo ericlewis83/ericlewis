@@ -7,17 +7,10 @@ body{
     .navigation{
     float: left;
     margin: 0;
-    display: inline-block;
     margin-bottom: 20px;
     padding: 5px;
     width: 100%;
-    position: relative;
-    box-shadow: 0 0 15px 0 grey;
     background-color: #ffffff;
-    }
-    
-    ul{
-    width:100%;
     }
     
     .navigation li{
@@ -34,7 +27,7 @@ body{
     text-decoration: none;
     font-family: merriweather;
     font-size: 20px;
-    color: #D3F0F4;
+    color:#003BFF;
     margin: 0px;
     }
     
@@ -46,12 +39,9 @@ body{
     background-color: #ffd700;
     }
     
-    
-    
     .contact-form ul{
     padding: 0px;
-    margin: 0px;
-    align: left;
+    margin: 0px auto;
     }
     
     .contact-form input,
@@ -76,21 +66,20 @@ body{
     header{
     font-family: arial black;
     font-size: 40px;
-    color: #003BFF;
     }
     
     footer a{
     font-family: lucinda sans; font-size: 14px;
-    color: #D3F0F4;
+    color: #000000;
     font-weight: bold;
     }
     
     footer{
-    height: 100px;
-    background-color: #838383;
-    padding: 20px;
+    height: 50px;
+    background-color: #D3F0F4;
+    padding: 5px;
     margin: 0px;
-    margin-top: 50px;
+    margin-top: 5px;
     }
     
     
