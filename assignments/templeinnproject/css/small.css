@@ -4,6 +4,7 @@ header,
 
 }
 
+* { margin: 0; box-sizing: border-box; } 
 
 h1 {
     font-family: arial black;
@@ -145,6 +146,3 @@ button {
     font-size: 18px;
 }
 
-iframe {
-    border-width: 0px;
-}
