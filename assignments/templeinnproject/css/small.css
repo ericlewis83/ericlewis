@@ -113,14 +113,9 @@ li {
     padding-right: 1em;
     text-align: right;
 }
-.welcome,
-.img1,
-.img2,
-.img3,
-img.hotel {
+.img2,.img3, .imghotel, .servicesimg{
     width: 80%;
 }
-
 
 
 footer a {
