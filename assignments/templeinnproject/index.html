@@ -53,17 +53,20 @@
             </div>
         </section>
 
-        <div class="hotel">
-            <img src="images/hotel.jpg" alt="Hotel living room" class="hotel">
+        <picture>
+                <source media="(max-width: 500px)" srcset="images/hotelsmall.jpg">
+                    <source media="(min-width: 800px)" srcset="images/hotel.jpg">
+                    <img src="images/hotel.jpg" alt="Hotel">
+    
             <form action="reservation.html"><button>Book Now. Call 240-Temp-INN</button></form>
         </div>
 
         <section>
             <h2>Featured Temple</h2>
             <picture>
-                <source media="(max-width: 600px)" srcset="images/provotmpsmall.jpeg">
-                <source media="(min-width: 800px)" srcset="images/provotemple.jpg">
-                <img src="images/provotemple.jpg" alt="Provo temple">
+                <source media="(max-width: 500px)" srcset="images/saltlaketmpsmall.jpeg">
+                <source media="(min-width: 800px)" srcset="images/saltlaketemple.jpeg">
+                <img src="images/saltlaketemple.jpeg" alt="Salt Lake City temple">
             </picture>
 
             <p>
