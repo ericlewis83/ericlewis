@@ -43,7 +43,6 @@ footer {
 
 body {
     background-color: #ffd700;
-    color: #000000;
 }
 
 
@@ -85,7 +84,6 @@ body {
 }
 
 .navigation a:hover {
-    color:#000000;
     background-color: #003BFF;
 }
     nav ul {
@@ -98,7 +96,6 @@ body {
     }
     
     .active {
-        background: #000;
         color: #fff
     }
 
