@@ -40,34 +40,33 @@
             width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 
-        <div id="contact-us-form">
+        <form class="contact-form" action="thanks.html">
             <h3>Contact Form</h3>
-            <form class="contact-form" action="thanks.html">
-                <ul class="form-shell">
-                    <li>
-                        <label for="name">Full Name*</label>
-                        <input type="text" id="name" minlength="2" maxlength="50" size="20" required
-                            pattern="[A-Z][A-Za-z' -]+">
-                    </li>
-                    <li>
-                        <label for="phone">Phone*</label>
-                        <input type="tel" id="phone" name="tel" required minlength="10">
-                    </li>
-                    <li>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email">
-                    </li>
-                    <li>
-                        <label for="message">Message (max 500 characters)</label>
-                        <textarea name="message" id="message" rows="6" maxlength="500"></textarea>
+            <ul class="form-shell">
+                <li>
+                    <label for="name">Full Name*</label>
+                    <input type="text" id="name" minlength="2" maxlength="50" size="20" required
+                        pattern="[A-Z][A-Za-z' -]+">
+                </li>
+                <li>
+                    <label for="phone">Phone*</label>
+                    <input type="tel" id="phone" name="tel" required minlength="10">
+                </li>
+                <li>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </li>
+                <li>
+                    <label for="message">Message (max 500 characters)</label>
+                    <textarea name="message" id="message" rows="6" maxlength="500"></textarea>
 
-                        <button type="submit">Submit</button>
-                    </li>
-
+                    <button type="submit">Submit</button>
+                </li>
 
 
-                </ul>
-            </form>
+
+            </ul>
+        </form>
         </div>
 
     </main>
