@@ -133,11 +133,14 @@ label {
     font-family: Merriweather;
 }
 
+p{
+    font-family: Merriweather;
+    font-size:16px;}
 
-p {
-    font-family: merriweather;
-    font-size: 16px;
-}
+ li {
+    font-family: Merriweather;
+    font-size: 14px;
+ }
 
 button {
     margin: 25px;
