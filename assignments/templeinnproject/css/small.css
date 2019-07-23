@@ -113,10 +113,10 @@ li {
     padding-right: 1em;
     text-align: right;
 }
-
-img,
+.welcome,
 .img1,
 .img2,
+.img3,
 img.hotel {
     width: 80%;
 }
