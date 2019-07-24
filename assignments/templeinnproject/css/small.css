@@ -149,6 +149,16 @@ div.card{
    display: inline-block;
 }
 
+div{
+    display: inline-block;
+    border: 2px solid;
+}
+
+.closure{
+    border: 2px solid;
+    display: inline-block;
+    padding: 20px;
+}
 
 
 footer a {

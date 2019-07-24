@@ -46,6 +46,16 @@
                 <img src="images/boisetemple.jpeg" alt="Boise Idaho lds temple">
             </picture>
 
+            <section class="weatherstats">
+                <div class="card">
+                    <h3>Boise Weather</h3>
+                    <p id="boise-weather">Currently: <span id="boise-currently"></span></p>
+                    <p>High: <span id="boise-hitemp"></span>&deg;F</p>
+                    <p>Wind Chill: <span id="boise-windchill"></span>&deg;F</p>
+                    <p>Humidity: <span id="boise-humidity"></span> %</p>
+                    <p>Wind Speed: <span id="boise-windSpeed"></span> mph</p>
+                </div>
+            </section>
             <h2>Boise Idaho temple</h2>
             <h3>Contact info</h3>
             <h4>Phone:</h4>(208)322-4422
@@ -83,16 +93,7 @@
         <h3>Boise temple closures</h3>
         <p class="closure" id="boise-closures" onload="getClosures()"></p>
 
-        <section class="weatherstats">
-            <div class="card">
-                <h3>Boise Weather</h3>
-                <p id="boise-weather">Currently: <span id="boise-currently"></span></p>
-                <p>High: <span id="boise-hitemp"></span>&deg;F</p>
-                <p>Wind Chill: <span id="boise-windchill"></span>&deg;F</p>
-                <p>Humidity: <span id="boise-humidity"></span> %</p>
-                <p>Wind Speed: <span id="boise-windSpeed"></span> mph</p>
-            </div>
-        </section>
+
 
         <div id="idahofalls" class="temple-info">
             <hr>
@@ -101,6 +102,19 @@
                 <source media="(min-width: 800px)" srcset="images/idfallstemple.jpeg">
                 <img src="images/idfallstemple.jpeg" alt="Idaho Falls lds temple">
             </picture>
+
+            <section class="weatherstats">
+                <div class="card">
+                    <h3>Idaho Falls Weather</h3>
+                    <p id="idahofalls-weather">Currently: <span id="if-currently"></span></p>
+                    <p>High: <span id="if-hitemp"></span>&deg;F</p>
+                    <p>Wind Chill: <span id="if-windchill"></span>&deg;F</p>
+                    <p>Humidity: <span id="if-humidity"></span> %</p>
+                    <p>Wind Speed: <span id="if-windSpeed"></span> mph</p>
+                </div>
+
+            </section>
+
             <div>
                 <h2>Idaho Falls temple</h2>
                 <h3>Contact info</h3>
@@ -141,17 +155,6 @@
             <h3>Idaho Falls temple closures</h3>
             <p class="closure" id="if-closures"></p>
 
-            <section class="weatherstats">
-                <div class="card">
-                    <h3>Idaho Falls Weather</h3>
-                    <p id="idahofalls-weather">Currently: <span id="if-currently"></span></p>
-                    <p>High: <span id="if-hitemp"></span>&deg;F</p>
-                    <p>Wind Chill: <span id="if-windchill"></span>&deg;F</p>
-                    <p>Humidity: <span id="if-humidity"></span> %</p>
-                    <p>Wind Speed: <span id="if-windSpeed"></span> mph</p>
-                </div>
-
-            </section>
         </div>
 
         <div id="provo" class="temple-info">
@@ -162,6 +165,18 @@
                 <source media="(min-width: 800px)" srcset="images/provotemple.jpg">
                 <img src="images/provotemple.jpg" alt="Provo Utah lds temple">
             </picture>
+
+            <section class="weatherstats">
+                <div class="card">
+                    <h3>Provo Weather</h3>
+                    <p id="provo-weather"><strong>Currently:</strong> <span id="provo-currently"></span></p>
+                    <p><strong>High:</strong><span id="provo-hitemp"></span>&deg;F</p>
+                    <p><strong>Wind Chill:</strong> <span id="provo-windchill"></span>&deg;F</p>
+                    <p><strong>Humidity:</strong> <span id="provo-humidity"></span> %</p>
+                    <p><strong>Wind Speed:</strong> <span id="provo-windSpeed"></span> mph</p>
+                </div>
+
+            </section>
 
             <div>
                 <h2>Provo Utah temple</h2>
@@ -197,36 +212,31 @@
             <ul>
                 <li>ASL: Tuesday, 3 September 2019 6:00 PM; Tuesday, 1 October 2019 6:00 PM; Tuesday, 5 November 2019
                     6:00 PM</li>
+
                 <li>French: Saturday, 17 August 2019 4:20 PM; Saturday, 21 September 2019 4:20 PM; Saturday, 19 October
                     2019 4:20 PM</li>
+
                 <li>Japanese: Saturday, 14 September 2019 6:20 PM; Saturday, 12 October 2019 6:20 PM; Saturday, 9
                     November 2019 6:20 PM</li>
+
                 <li>Korean: Saturday, 17 August 2019 6:20 PM; Saturday, 21 September 2019 6:20 PM; Saturday, 19 October
                     2019 6:20 PM</li>
+
                 <li>Portuguese: Saturday, 24 August 2019 11:00 AM; Saturday, 14 September 2019 11:00 AM; Saturday, 28
                     September 2019 11:00 AM</li>
+
                 <li>Samoan: Tuesday, 13 August 2019 8:00 PM; Tuesday, 27 August 2019 8:00 PM; Tuesday, 10 September 2019
                     8:00 PM</li>
+
                 <li>Spanish: Saturday, 17 August 2019 8:00 AM; Saturday, 17 August 2019 12:00 PM; Saturday, 24 August
                     2019 8:00 AM</li>
+
                 <li>Tongan: Tuesday, 20 August 2019 8:00 PM; Tuesday, 3 September 2019 8:00 PM; Tuesday, 17 September
                     2019 8:00 PM</li>
             </ul>
 
             <h3>Provo temple closures</h3>
             <p class="closure" id="provo-closures"></p>
-
-            <section class="weatherstats">
-                <div class="card">
-                    <h3>Provo Weather</h3>
-                    <p id="provo-weather"><strong>Currently:</strong> <span id="provo-currently"></span></p>
-                    <p><strong>High:</strong><span id="provo-hitemp"></span>&deg;F</p>
-                    <p><strong>Wind Chill:</strong> <span id="provo-windchill"></span>&deg;F</p>
-                    <p><strong>Humidity:</strong> <span id="provo-humidity"></span> %</p>
-                    <p><strong>Wind Speed:</strong> <span id="provo-windSpeed"></span> mph</p>
-                </div>
-
-            </section>
 
         </div>
 
@@ -238,6 +248,19 @@
                 <source media="(min-width: 800px)" srcset="images/saltlaketemple.jpeg">
                 <img src="images/saltlaketemple.jpeg" alt="Salt Lake City Utah lds temple">
             </picture>
+
+            <section class="weatherstats">
+                <div class="card">
+                    <h3>Salt Lake City Weather</h3>
+                    <p id="saltlake-weather"><strong>Currently:</strong> <span id="slc-currently"></span></p>
+                    <p><strong>High:</strong> <span id="slc-hitemp"></span>&deg;F</p>
+                    <p><strong>Wind Chill:</strong> <span id="slc-windchill"></span>&deg;F</p>
+                    <p><strong>Humidity:</strong> <span id="slc-humidity"></span> %</p>
+                    <p><strong>Wind Speed:</strong> <span id="slc-windSpeed"></span> mph</p>
+                </div>
+
+            </section>
+
             <div>
                 <h2>Salt Lake City Utah temple</h2>
                 <h3>Contact info</h3>
@@ -274,17 +297,6 @@
             <p class="closure" id="slc-closures">
         </div>
 
-        <section class="weatherstats">
-            <div class="card">
-                <h3>Salt Lake City Weather</h3>
-                <p id="saltlake-weather"><strong>Currently:</strong> <span id="slc-currently"></span></p>
-                <p><strong>High:</strong> <span id="slc-hitemp"></span>&deg;F</p>
-                <p><strong>Wind Chill:</strong> <span id="slc-windchill"></span>&deg;F</p>
-                <p><strong>Humidity:</strong> <span id="slc-humidity"></span> %</p>
-                <p><strong>Wind Speed:</strong> <span id="slc-windSpeed"></span> mph</p>
-            </div>
-
-        </section>
     </main>
 
 
